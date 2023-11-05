@@ -1,5 +1,4 @@
 package cn.jystudio.bluetooth;
-package com.limyanloong.rnbluetoothposprinter;
 
 import android.Manifest;
 import android.app.Activity;
