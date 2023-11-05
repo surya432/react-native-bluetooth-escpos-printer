@@ -324,7 +324,6 @@ public class RNBluetoothManagerModule extends ReactContextBaseJavaModule
     }
 
 
-    @Override
     public void onActivityResult(Activity activity, int requestCode, int resultCode, Intent data) {
         BluetoothAdapter adapter = this.getBluetoothAdapter();
         Log.d(TAG, "onActivityResult " + resultCode);
